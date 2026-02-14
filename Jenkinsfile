@@ -8,7 +8,7 @@ pipeline{
   stages{
     stage('CODE') { 
       steps{
-        git url: "", branch: "main"
+        git url: "https://github.com/Huzefa211/Project1.git", branch: "main"
       }
     }
     stage('BUILD') { 
